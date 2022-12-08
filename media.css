@@ -1,0 +1,281 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+      }
+   
+      .blackStor{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.3;
+        z-index: 0;
+        position: absolute;
+        padding: 0 0 100% 0;
+      }
+      .header{
+        z-index: 5;
+        background-color: black;
+        color: #fff;
+        min-width: 1350px;
+        width: 100%;
+        background-image: url('img/header.png');
+        background-repeat:no-repeat;
+        
+      }
+      .sublime{
+        position: relative;
+        z-index: 2;
+        padding: 120px 0 0 0;
+        margin-left: 140px;
+      }
+      .sublime h1{
+        z-index: 2;
+        font-size:200px ;
+      }
+      .sublime h1 span{
+        color: #ffc600;
+      }
+      .dowland{
+        font-size: 18px;
+        color: #ffc600;
+        padding: 0 0 60px 0;
+      }
+      .sublimeText{
+        font-size: 18px;
+      }
+      .sublimeText span{
+        color: #ffc600;
+      }
+      .header image{
+        
+      }
+      .nav-bar{
+        position: relative;
+        z-index: 10;
+        color:#fff;
+        margin: 0 auto;
+        width: 1200px;
+        background-image: url('img/headerBottom.jpg');
+        padding-bottom:600px ;
+      }
+      .nav-bar li{
+         text-decoration-style: none;
+         display: inline;
+         margin-left: 10px;
+      }
+      .nav-bar a{
+        text-decoration: none;
+        color: #ffc600;
+        font-size: 20px;
+        
+      }
+      .nav-bar a:hover{
+        color: #fff;
+      }
+      .bar{
+        margin: 0 0 0 40px;
+        padding: 70px 0 0 0;
+      }
+      .bar span{
+        color: #ffc600;
+      }
+      .bar p{
+        padding: 0 0 60px 0;
+      }
+      .bar h1,p{
+        font-size: 60px;
+      }
+      
+      .container{
+       
+        width: 100%;
+     
+       
+      }
+      .about{
+        background-color: #fff;
+        position: relative;
+        width:1200px;
+        margin: 0 auto;
+        padding: 0 0 80px 0;
+      }
+      .about-sublime{
+        
+        display: flex;
+        justify-content: space-between;
+      }
+      .about-title{
+        padding: 70px  160px 0 0 ;
+        margin-left: 90px;
+      }
+      .about-title span{
+        color: #ffc600;
+      }
+      .about-title h1{
+        color: #717171;
+      }
+      .lorem{
+      
+       
+        padding: 35px 0 0 0;
+      }
+      
+      .line{
+        border-left: 3px solid #9b9b9b;
+        height: 100px;
+         margin: 50px 10px 0 0;
+      }
+      
+      .aboutThreeCircle{
+        padding:70px 80px 0 80px;
+        margin-left:10%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .circle{
+        margin: 0 auto;
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 2px solid #ffc600;
+      }
+      .circle img{
+        padding: 30% 0;
+      }
+      .center{
+        text-align: center;
+        font-size: 9px;
+        margin-left:15px;
+      }
+      .center span{
+      padding: 20px 0 20px 0;
+      }
+      .center h1{
+        font-size: 12px;
+        margin: 0 auto;
+       
+      }
+      .featured-project{
+        z-index: 3;
+        position: relative;
+        margin: 0 0 0 0;
+        background-color: #fff;
+        width: 1200px;
+        padding: 0 0 0 7%;
+      }
+      .featured{
+        margin-left: 90px;
+      }
+      .featured-nav li{
+        text-decoration-style: none;
+        display: inline;
+        margin-left: 20px;
+      }
+      .featured-nav a{
+        font-size: 10px;
+        color: #000000;
+        text-decoration: none;
+      }
+      .featured-nav a:hover{
+       border-bottom: 2px solid #ffc600 ;
+      
+      }
+      .pinkLine{
+        border-bottom: 2px solid pink;
+        width: 80px;
+        padding: 0 0 0 0;
+        margin:0 0 10px 100px;
+      }
+      .img-block{
+        padding: 40px 0 0 0;
+      }
+      .img-block img{
+        width: 295px;
+        height: 265px;
+        opacity: 0.5;
+      }
+      .img-block img:hover{
+        opacity: 1;
+      }
+      .imgBlock1{
+        display: flex;
+        justify-content: space-between;
+      }
+      .strategic-process{
+        background-color: #fff;
+       width: 1200px;
+        margin: 0 auto;
+      }
+    
+     
+      .contacts{
+         padding: 40px 19% 0 19%;
+        margin: 0 0 0 0;
+        text-align: center;
+        width: 100%;
+       
+        background-color:#afc1f2 ;
+      }
+      .contacts h1{
+        color: #ffc600;
+      }
+  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+body{
+    color: #00a6c4;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
